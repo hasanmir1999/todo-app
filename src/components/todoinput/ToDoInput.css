@@ -1,0 +1,33 @@
+.input-container{
+    position: relative;
+}
+
+.todo-input{
+    background-color: #CBDCEB;
+    width: 700px;
+    border: 2px solid #608BC1;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #133E87;
+    outline: none;
+}
+
+.input-container button{
+    position: absolute;
+    right: 10px;
+    top: 24%;
+    color: #133E87;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.input-container button svg{
+    transition: 0.3s;
+}
+
+.input-container button:hover svg{
+    color: #F3F3E0;
+}
